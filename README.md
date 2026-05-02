@@ -4,7 +4,7 @@ Me basé en el tema Parrot del repo de [ZLCube/AutoBspwm](https://github.com/ZLC
 
 Esta configuración es de mi otro repo [b4zh/dotfiles-archlinux](https://github.com/b4zh/dotfiles-archlinux), pero **adaptado a Kali Linux**.
 
-Por lo que este README es un prácticamente un **README reciclado** :)
+Por lo que este README es prácticamente un **README reciclado** :)
 
 ## Entorno
 
