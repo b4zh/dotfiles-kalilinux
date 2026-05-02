@@ -12,6 +12,7 @@ sudo apt remove --purge vim
 sudo apt install $programas
 
 # Instalación de la fuente Mononoki
+mkdir -p ./assets/fonts/
 cd ./assets/fonts/
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Mononoki.zip
 unzip Mononoki.zip
