@@ -1,0 +1,32 @@
+#!/bin/bash
+
+ip_objetivo=$1
+nombre_objetivo=$2
+
+if [[ -z $1 ]]; then
+	echo "Uso: cet [ip_objetivo] [nombre_objetivo]"
+elif [[ -n $1 ]]; then
+	if [[ $1 == "-c" ]]; then
+		if [[ -s ~/.config/bin/target ]]; then
+			echo "Objetivo Borrado"
+			cat /dev/null > ~/.config/bin/target
+		else
+			echo "No hay objetivo que borrar"
+		fi
+	elif [[ -z $2 ]]; then
+		echo -n "$ip_objetivo" > ~/.config/bin/target
+		echo "Nuevo objetivo: $ip_objetivo"
+	elif [[ -n $2 ]]; then
+		if [[ $ip_objetivo ]] && [[ $nombre_objetivo ]]; then
+			echo -n "%{A1:echo -n $ip_objetivo | xclip -sel clip:}%{F#ffffff}$ip_objetivo%{F-} $nombre_objetivo%{A}" > ~/.config/bin/target
+			echo "Nuevo objetivo: $ip_objetivo $nombre_objetivo"
+		fi
+	fi
+else
+	echo "Uso: cet [ip_objetivo] [nombre_objetivo]"
+fi
+
+
+# Verificar que el primer argumento es una dirección IP, si no,
+# que el script se encargue de ello.
+# IP - NOMBRE
