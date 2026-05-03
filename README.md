@@ -2,7 +2,7 @@
 
 Me basé en el tema Parrot del repo de [ZLCube/AutoBspwm](https://github.com/ZLCube/AutoBspwm).
 
-Esta configuración es de mi otro repo [b4zh/dotfiles-archlinux](https://github.com/b4zh/dotfiles-archlinux), pero **adaptado a Kali Linux**.
+Esta configuración es de mi otro repo [b4zh/dotfiles-archlinux](https://github.com/b4zh/dotfiles-archlinux), pero **adaptado a Kali Linux** [preconfigurado para VirtualBox](https://www.kali.org/get-kali/#kali-virtual-machines).
 
 Por lo que este README es prácticamente un **README reciclado** :)
 
