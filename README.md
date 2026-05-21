@@ -12,7 +12,7 @@ Por lo que este README es prácticamente un **README reciclado** :)
 
 ## Herramientas
 
-Las principales herramientas que conforman el entorno son:
+Las principales herramientas que conforman la configuración son:
 
 - xorg
 - bspwm
